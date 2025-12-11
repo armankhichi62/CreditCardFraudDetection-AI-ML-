@@ -2,8 +2,5 @@ streamlit
 pandas
 numpy
 scikit-learn
-xgboost
-tensorflow
-matplotlib
-seaborn
-pickle5
+tensorflow==2.15
+
