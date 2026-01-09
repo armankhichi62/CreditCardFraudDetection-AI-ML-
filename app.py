@@ -16,7 +16,7 @@ st.set_page_config(page_title="Fraud Detection", layout="centered")
 @st.cache_resource(show_spinner=False)
 def load_artifacts():
     # Load Keras model
-    model = load_model("model.keras")
+    model = load_model("model.h5")
 
     # Load pickles
     with open("scaler.pkl", "rb") as f:
