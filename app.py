@@ -1,10 +1,13 @@
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # app.py
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
 import time
-
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 
