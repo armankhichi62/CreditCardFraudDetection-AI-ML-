@@ -9,7 +9,6 @@ import pickle
 import time
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-from sklearn.preprocessing import LabelEncoder
 
 st.set_page_config(page_title="Fraud Detection", layout="centered")
 
